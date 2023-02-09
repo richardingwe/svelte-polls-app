@@ -1,5 +1,5 @@
 <footer>
-  <div class="copyright">Copyright 2020 Poll Ninja</div>
+  <div class="copyright">Copyright 2023 Poll Ninja</div>
 </footer>
 
 <style>
