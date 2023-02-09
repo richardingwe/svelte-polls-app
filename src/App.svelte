@@ -1,4 +1,5 @@
 <script lang="ts">
+  import CreatePollForm from "./components/CreatePollForm.svelte";
   import Footer from "./components/Footer.svelte";
   import Header from "./components/Header.svelte";
 
@@ -16,7 +17,7 @@
   {#if activeItem === 'Current Polls'}
     <p>poll list goes here</p>
   {:else if activeItem === 'Add New Poll'}
-    <!-- <CreatePollForm /> -->
+    <CreatePollForm />
   {/if}
 </main>
 <Footer/>
